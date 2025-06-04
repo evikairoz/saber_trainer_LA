@@ -1,9 +1,12 @@
-train: ./trainer/train/images
-val: ./trainer/valid/images
-test: ./trainer/test/images
+# trainer/data.yaml
+
+train: ../new_dataset/saber_pkm.v3i.yolov5pytorch/train/images
+val:   ../new_dataset/saber_pkm.v3i.yolov5pytorch/valid/images
+test:  ../new_dataset/saber_pkm.v3i.yolov5pytorch/test/images
 
 nc: 7
 names: ['celurit', 'gunting', 'kapak', 'pisau', 'pistol', 'robbery', 'tongkat pemukul']
+
 
 roboflow:
   workspace: pkmsaber-kcf6v
